@@ -1,0 +1,1149 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+ 
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+}
+.block-one {
+  background-image: url('../rasmlar/bg-img-1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-bottom: 260px;
+  
+  /* padding-top: 250px; */
+  
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  /* border: 5px solid white; */
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  position: relative;
+  padding-top: 50px;
+}
+
+.header-top {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* margin-top: 50px; */
+  /* border: 2px solid transparent; */
+}
+.links-menu {
+  margin-left: 150px;
+}
+
+.links-menu a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 0 20px 20px 20px;
+ 
+
+
+}
+.dropdown-wrapper .links {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* text-align: center; */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+
+.dropdown-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.links::before {
+  content: "";
+  background-image: url('../rasmlar/lang.svg');
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 9px;
+  position: absolute;
+  left: 35px;
+  top: 15px;
+}
+.dropdown-wrapper:hover .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.5s;
+  position: absolute;
+  top: 25px;
+}
+
+
+
+.dropdown-menu {
+  display: none;
+ 
+}
+
+.dropdown-menu .menu-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+  padding: 10px 20px 10px 10px
+}
+
+.dropdown-links {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* text-align: right; */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+.dropdown-links:hover {
+ color: #FFB548;
+
+}
+
+.right-logos {
+  margin-right: 10%;
+}
+
+
+
+.header-middle, .header-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-middle h1 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  margin-top: 300px;
+}
+.header-middle h3 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 28px;
+  color: #FFFFFF;
+}
+
+.header-middle a {
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  padding: 20px;
+  color: #000000;
+  margin-bottom: 363px;
+
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1A1917;
+}
+
+.header-bottom {
+   position: relative;
+}
+.header-bottom h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: justify;
+  text-transform: uppercase;
+ 
+  color: #FFFFFF;
+
+}
+.header-bottom h4::after {
+  background-image: url('../rasmlar/scroll down.svg');
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 49%;
+  width: 21px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.block-second-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 276px;
+}
+.second-left {
+  color: #FFFFFF;
+  width: 50%;
+  position: relative;
+}
+.subheader {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 9px;
+  color: #FFFFFF;
+
+}
+.title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 700px;
+  color: #FFFFFF;
+  margin-bottom: 72px;
+
+}
+
+.title::after {
+  width: 948px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  height: 2.99px;
+  left: 0;
+  bottom: 217px;
+  position: absolute;
+  content: '';
+  z-index: 16;
+}
+.parag {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  width: 340px;
+  margin-left: 280px;
+
+}
+
+.second-right {
+  position: relative;
+}
+.second-right:after {
+  content: '';
+  background-image: url(../rasmlar/switch.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50.07px;
+  height: 100.74px;
+  position: absolute;
+  right: -52px;
+  top: 55%;
+}
+
+.second-right::before {
+  content:'';
+  position: absolute;
+  z-index: 4;
+  height: 14px;
+  width: 14px;
+  border: 3px solid #ffffff;
+  left: 10px;
+  bottom: 60px;
+
+  
+}
+.second-right img {
+  position:absolute;
+  left: -630px;
+  border-radius: 10px;
+}
+.second-right img:last-child {
+  position:absolute;
+  left: -205px;
+  top: -25px;
+}
+.second-right img:nth-child(2) {
+  position:absolute;
+  left: -490px;
+  width: 438.27px; 
+  height: 511.62px; 
+  top: -8px;
+}
+.second-right img:first-child {
+  z-index: 1;
+  top: -50px;
+  /* left: -400px; */
+}
+
+.second-right img:nth-child(4) {
+  z-index: 5;
+  top: 510px;
+  left: -500px;
+}
+
+.second-right img:nth-child(5) {
+  z-index: 5;
+  top: 510px;
+  left: -460px;
+}
+
+.second-right img:nth-child(6) {
+  z-index: 5;
+  top: 510px;
+  left: -400px;
+}
+
+.second-right img:nth-child(7) {
+  z-index: 5;
+  top: 510px;
+  left: -380px;
+}
+
+.second-right img:nth-child(8) {
+  z-index: 5;
+  top: 510px;
+  left: -330px;
+}
+
+.second-right img:nth-child(4)::after {
+  content:'';
+  z-index: 7;
+  top: 510px; 
+  left: -400px; 
+  width: 30px;
+  height: 3px;
+  background: #FFF;
+  position: absolute;
+
+}
+
+
+
+
+
+
+
+
+
+
+.block-second {
+  background-image: url('../rasmlar/bg image 2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-bottom: 260px;
+
+}
+
+.block-third-wrapper {
+}
+
+.block-third {
+  background-image: url('../rasmlar/Group-man.jpg');
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 400px;
+}
+.contents {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-left: 750px;
+  position: relative;
+
+}
+.content-one {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  width: 262px;
+  color: #FFFFFF;
+  margin-top: 370px;
+  margin-bottom: 10px;
+
+}
+.content-two {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 411px;
+  color: #FFFFFF;
+  margin-bottom: 92px;
+
+}
+.content-three {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 2px;
+  width: 548px;
+  color: #FFB548;
+  margin-bottom: 40px;
+}
+.content-three:before {
+  content:'';
+  width: 14px;
+  height: 14px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 34%;
+  left: 12px;
+}
+.content-four {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  width: 320px;
+  margin-left: 46px;
+  margin-bottom: 64px;
+
+}
+
+.content-four::before {
+ content: '';
+ height: 198.03px;
+ width: 2px;
+ background: white;
+ position: absolute;
+ top: 600px;
+ left: 18px;
+
+
+
+}
+.content-five {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: #FFB548;
+  width: 600px;
+  margin-bottom: 55px;
+  margin-left: 46px;
+
+}
+.content-five:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  bottom: 95px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.content-six {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  width: 550px;
+  color: #FFB548;
+  margin-left: 46px;
+}
+.content-six:before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  border-radius: 50%;
+  left: 10px;
+  bottom: 1%;
+}
+.block-fourth-wrapper {
+
+}
+.item-bottom-inner {
+  margin-top: 350px;
+}
+
+
+
+.block-fourth {
+  background-image: url('../rasmlar/castel.jpg');
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 400px;
+  
+}
+.item-bottom {
+  content: '';
+  /* background-image: url('../rasmlar/card-border.png'); */
+  width: 575px;
+  height: 380px;
+  
+  
+ 
+}
+.block-fifth-wrapper {
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+
+} 
+.fifth-right {
+  margin-top: 259px;
+}
+.fifth-right .card {
+  margin-bottom: 29px;
+}
+
+
+
+.digit-two {
+  display: block;
+}
+.digit-one p {
+  color: #FFFFFF;
+}
+.digit .os {
+  color: yellow;
+}
+
+
+
+.couple-one {
+  display: flex;
+  justify-content: space-between;
+}
+.couple-two {
+  display: flex;
+  justify-content: space-between;
+}
+.item-bottom h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFB548;
+  margin-bottom: 6.3px;
+  display: block;
+}
+.item-bottom p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.item-top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.item-top h3 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+
+  color: #FFFFFF;
+}
+.item-top h1 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.digit-one {
+  padding: 14px 10px 31px 19px;
+  border-right: 2px solid #979797;
+  
+
+}
+.digit-one h2 {
+  padding-bottom: 6.54px;
+ 
+}
+.digit-two {
+  padding: 14px 16px 21px 18px;
+  /* border-right: 2px solid #979797; */
+}
+.digit-two h2 {
+  padding-bottom: 6.54px;
+}
+
+.digit-three {
+  padding: 14px 130px 47px 10px;
+  border-right: 2px solid #979797;
+}
+.digit-three h2 {
+  padding-bottom: 6.54px;
+}
+.digit-four {
+  padding: 15px 135px 32px 18px;
+}
+.digit-four h2 {
+  padding-bottom: 6.54px;
+}
+
+.digit-five {
+  padding: 25px 48px 36px 10px;
+}
+.digit-five h2 {
+  padding-bottom: 6.54px;
+}
+
+.item-top h3 {
+  margin: 200px 0 8px 0;
+}
+.item-bottom {
+  margin-top: 200px;
+}
+.couple-one {
+  border: 2px solid #979797;
+  width: 573px;
+}
+.couple-two {
+  border-bottom: 2px solid #979797;
+  width: 573px;
+  border-left: 2px solid #979797;
+  /* width: 133px; */
+  border-right: 2px solid #979797;
+}
+
+.add-last {
+  border-bottom: 2px solid #979797;
+  width: 573px;
+  border-left: 2px solid #979797;
+  /* width: 133px; */
+  border-right: 2px solid #979797;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block-fifth {
+  background-image: url('../rasmlar/before-dark.png');
+  content: '';
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 400px;
+  background-position: center;
+}
+.block-fifth-wrapper {
+  padding-bottom: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fifth-left {
+  margin-top: 303px;
+}
+
+.fifth-left h3 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+.fifth-left h4 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  color: #FFFFFF;
+
+}
+.fifth-left p {
+ font-style: normal;
+ font-weight: normal;
+ font-size: 18px;
+ line-height: 22px;
+ letter-spacing: 2px;
+ color: #FFFFFF;
+ margin-bottom: 60px;
+
+}
+.fifth-left a {
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  padding: 20px 36px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1A1917;
+
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  display: block;
+  padding: 14px 19px 21px 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  
+  width: 480px;
+  margin-left: 300px;
+}
+.card-second {
+  /* margin-right: 100px;  */
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px 19px 21px 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  margin-right: 300px;  
+  margin-bottom: 29px;
+  /* width: 480px; */
+}
+.card-second .card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+
+}
+.card-top-left {
+  display: flex;
+  margin-right: 190px;
+  
+}
+.img-person img {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  box-shadow: 6px 3px 0 2px #FFB548;
+}
+.p-section {
+  margin-left: 27.27px;
+}
+.p-section h4 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  color: #FFB548;
+
+}
+.p-section p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  opacity: 0.5;
+ 
+}
+.card-bottom p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+}
+.card-bottom span {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+
+
+.img-person.two {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  box-shadow: 6px 3px 0 2px #FFB548;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block-sixth {
+  background-image: url('../rasmlar/final-dark.png');
+  content: '';
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  padding-bottom: 240px;
+  background-position: center;
+  border: none;
+}
+
+
+.sixth-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sixth-right {
+  margin-top: 220px;
+  margin-right: 160px;
+}
+.sixth-left {
+  margin-top: 69px;
+}
+
+.text h3 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 9px;
+  color: #FFFFFF;
+
+}
+.text h1 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 70px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  color: #FFFFFF;
+  /* width: 700px; */
+
+}
+.text p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+  width: 540px;
+
+}
+
+.links {
+  display: flex;
+  align-items: center;
+ 
+}
+.link-one form {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-one {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  padding: 6px 145px 8px 25px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFB548;
+  width: 130px;
+  margin-right: 10px;
+
+}
+.link-one label {
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.link-one input {
+  font-family: 'Open Sans';
+  background: rgb(27 29 30);
+  border-radius: 4px;
+  padding: 6px 145px 8px 25px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFB548;
+  mix-blend-mode: normal;
+  width: 30%;
+  padding: 4px;
+  border: none;
+  width: 240px;
+
+}
+
+.link-one input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFB548;
+
+}
+form {
+  display: block;
+}
+
+.link-two a {
+  padding: 17px 60px 20px 60px;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1A1917;
+
+}
+
+.sixth-bottom .birinchi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:30px 0;
+  opacity: 0.5;
+  border-bottom: 0.873968px solid #FFFFFF;
+}
+
+.footer-links a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  color: #FFFFFF;
+
+}
+.footer-links a:hover {
+  color:#FFB548;
+  transition: all ease 0.5s;
+
+}
+.footer-icons .tw, .you, .sch {
+ margin-left: 40px;
+ fill: #FFFFFF;
+}
+.footer-icons .face {
+  fill: #FFFFFF;
+}
+.footer-icons .tw:hover {
+ 
+  fill: skyblue;
+  transform: scale(2);
+  transition: all ease 0.5s;
+}
+
+.footer-icons .face:hover {
+  fill: blue;
+  transform: scale(2);
+  transition: all ease 0.5s;
+}
+.footer-icons .you:hover {
+  fill: red;
+  transform: scale(2);
+  transition: all ease 0.5s;
+}
+.footer-icons .sch:hover {
+  fill: green;
+  transform: scale(2);
+  transition: all ease 0.5s;
+}
+
+.ikkinchi {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.ikkinchi span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.ikkinchi a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
